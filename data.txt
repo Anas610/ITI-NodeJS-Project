@@ -1,0 +1,52 @@
+db.getCollection("patients").insertOne({
+    name:"kero",
+    email:"kero@gmail.com",
+    password:"123456789",
+    phoneNumber:"01067162944",
+    cart:[{
+        name:"nokia",
+        price:"2000pound",
+        details:"best phone nokia in this year",
+        quantity:"400",
+        category:"nokia",
+        image:"https://loremflickr.com/640/480/animals",
+        status:"available",
+        rate:"5"
+    }],
+    order:[{
+        deviceName:"nokia",
+        category:"nokia",
+        hiringStartDate:"1/8/2020",
+        EndDate:"1/10/2022",
+        lessee:"ali",
+        leaseAmount:"10",
+        leaseStatus:"pending"
+    }],
+    nationalId:"29807011210",
+    age:"24",
+    gender:"male",
+    profile:"https://loremflickr.com/640/480/animals",
+    region:"aswan",
+    address:"aswan",
+    isBlocked:false,
+    rates:"4"
+    
+    
+    
+    
+})
+
+
+{
+        "userName":"hany",
+        "email":"hany@gmail.com",
+        "userAge":"24",
+        "userMobile":"1256848",
+        "Region":"aswan",
+        "Address":"aswan",
+        "gender":"male",
+        "numOfDevice":"10",
+        "startDate":"1/7/2022",
+        "endDate":"1/12/2022",
+        "patientStatus":"pending"
+    }
